@@ -1,0 +1,84 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações Body */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 2rem;
+    background-color: #161616;
+    color: #f2f2f2;
+}
+
+/* Seção de Introdução */
+.introducaoImc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 3rem;
+}
+
+
+/* Titulo introdução */
+.introducaoImc h1,h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.introducaoImc h2 {
+    color: #bbff00;
+}
+
+/* Introdução Texto */
+.introducaoImc p {
+    font-size: 20px;
+}
+
+/* Seção Label e Input */
+.containerImc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.containerImc label {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.containerImc input{
+    margin: 1em 0;
+    padding: .3rem 5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: none;
+}
+
+/* Botão */
+button {
+    background-color: #bbff00;
+    padding: .5rem 2rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    border: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 5px 7px 0px;
+}
+
+button:hover{
+    box-shadow: 0 0;
+    transition: all .3s ease-in-out;
+}

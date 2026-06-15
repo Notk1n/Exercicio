@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Calculador de IMC</title>
+</head>
+<body>
+    <main>
+        <!-- Seção de introdução a página -->
+        <section class="introducaoImc">
+            <h1>Calculadora De IMC</h1>
+            <h2>Índice de Massa Corporal</h2>
+            <p>IMC significa Índice de Massa Corporal. É uma medida internacional adotada pela Organização Mundial da Saúde (OMS) que avalia se uma pessoa está dentro do seu peso ideal de acordo com a altura</p>
+        </section>
+        
+        <!-- Container para o Label e Input -->
+        <section class="containerImc">
+
+            <label for="peso">Digite o seu Peso </label>
+            <input type="number" id="peso" placeholder="KG">
+
+            <label for="altura">digite sua Altura </label>
+            <input type="number" id="altura" placeholder="Metros">
+            
+            <!-- Botão para enviar as informações -->
+            <button onclick="calcularImc()">Calcular</button>
+            
+            <!-- Mensagem para informar o IMC -->
+            <p id="resultado"></p>
+
+            <!-- Mensagem para informar se o usuário esta abaixo do peso, no peso ideal ou acima do peso -->
+            <p id="mensagem"></p>
+        </section>
+    </main>
+</body>
+</html>
